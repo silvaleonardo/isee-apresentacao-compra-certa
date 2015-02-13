@@ -1,0 +1,490 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 1200px) {
+    /* DIMENSÕES */
+    
+    #wrap, #page1, #page2, #page3, #page4, #page5, #page6 {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1920px;
+        min-width: 1024px;
+        height: 100%;
+        max-height: 1080px;
+        min-height: 768px;
+    }
+    .content {
+        width: 1024px;
+        height: 768px;
+        top: 50%;
+        margin-left: -512px;
+        margin-top: -384px;
+    }
+}
+@media screen and (max-height: 768px) {
+    /* DIMENSÕES */
+    
+    #wrap, #page1, #page2, #page3, #page4, #page5, #page6 {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    .content {
+        width: 1024px;
+        height: 768px;
+        top: 50%;
+        margin-left: -512px;
+        margin-top: -425px;
+        -webkit-transform: scale(0.8, 0.8);
+        -moz-transform: scale(0.8, 0.8);
+        -o-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8);
+    }
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* DIMENSÕES */
+    
+    #wrap, #page1, #page2, #page3, #page4, #page5, #page6 {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    .content {
+        -webkit-transform: scale(0.8, 0.8);
+        -moz-transform: scale(0.8, 0.8);
+        -o-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8);
+        width: 733px;
+        height: 550px;
+        top: 50%;
+        margin-left: -366px;
+        margin-top: -360px;
+    }
+}
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+/* DISPLAY NONE */
+
+#page1, #page2, #page2-1, #page2-2, #page3, #page3-1, #page3-2, #page3-3, #page4, #page5 {
+    display: none;
+}
+/* BACKGROUNDS */
+
+#page1 {
+    background: url(../images/page1/background.jpg) 50% 50% no-repeat;
+}
+#page2 {
+    background: url(../images/page2/background.jpg) 50% 50% no-repeat;
+}
+#page3 {
+    background: url(../images/page3/background.jpg) 50% 50% no-repeat;
+}
+#page4 {
+    background: url(../images/page4/background.jpg) 50% 50% no-repeat;
+}
+#page5 {
+    background: url(../images/page5/background.jpg) 50% 50% no-repeat;
+}
+/* DEFAULTS */
+
+#wrap {
+    position: relative;
+}
+.principal {
+    position: relative;
+    left: 0;
+}
+.absoluto {
+    position: absolute;
+    left: 50%;
+}
+/* POSICIONAMENTOS */
+/* PÁGINA 1 */
+
+#page1 .logo {
+    margin-left: -315px;
+    top: 85px;
+}
+#page1 .slogan {
+    margin-left: -404px;
+    top: 455px;
+}
+/* PÁGINA 2 */
+
+#page2 .linhas {
+    margin-left: -508px;
+    top: 35px;
+}
+#page2 .titulo {
+    margin-left: -482px;
+    top: 10px;
+}
+#page2 .marcas {
+    margin-left: -224px;
+    top: 172px;
+}
+#page2 .marcas img {
+    float: left;
+    margin: 0 5px;
+}
+#page2 .compra-certa {
+    margin-left: -452px;
+    top: 246px;
+}
+#page2 .desconto {
+    margin-left: 70px;
+    top: 295px;
+}
+/* PÁGINA 2 - ITEM 1 */
+
+#page2 #page2-1 {
+    margin-left: -500px;
+    top: 300px;
+    display: block;
+}
+#page2 #page2-1 .bg-facilidade {
+    margin-left: 0;
+    top: 0px;
+}
+#page2 #page2-1 .facilidade {
+    margin-left: 115px;
+    top: 55px;
+}
+#page2 #page2-1 .bg-comodidade {
+    margin-left: 20px;
+    top: 140px;
+}
+#page2 #page2-1 .comodidade {
+    margin-left: 142px;
+    top: 200px;
+}
+#page2 #page2-1 .bg-custo {
+    margin-left: 40px;
+    top: 290px;
+}
+#page2 #page2-1 .custo {
+    margin-left: 156px;
+    top: 360px;
+}
+/* PÁGINA 2 - ITEM 2 */
+
+#page2 #page2-2 {
+    margin-left: -500px;
+    top: 300px;
+    display: none;
+}
+#page2 #page2-2 .bg-confianca {
+    margin-left: 0;
+    top: 0px;
+}
+#page2 #page2-2 .confianca {
+    margin-left: 115px;
+    top: 68px;
+}
+#page2 #page2-2 .bg-credibilidade {
+    margin-left: 20px;
+    top: 140px;
+}
+#page2 #page2-2 .credibilidade {
+    margin-left: 140px;
+    top: 198px;
+}
+#page2 #page2-2 .bg-melhores {
+    margin-left: 40px;
+    top: 290px;
+}
+#page2 #page2-2 .melhores {
+    margin-left: 160px;
+    top: 350px;
+}
+/* PÁGINA 3 */
+
+#page3 .linhas {
+    margin-left: -488px;
+    top: 30px;
+}
+#page3 .titulo {
+    margin-left: -448px;
+    top: 15px;
+}
+#page3 .slogan {
+    margin-left: -355px;
+    top: 158px;
+}
+/* PÁGINA 3 - ITEM 1 */
+
+#page3 #page3-1 {
+    margin-left: 0px;
+    top: 280px;
+    display: none;
+}
+#page3 #page3-1 .slogan-parceria {
+    margin-left: -355px;
+    top: -88px;
+}
+#page3 #page3-1 .img-linha {
+    margin-left: -220px;
+    top: 0px;
+}
+#page3 #page3-1 .linha {
+    margin-left: -258px;
+    top: 136px;
+}
+#page3 #page3-1 .img-parcelamento {
+    margin-left: 90px;
+    top: 0px;
+}
+#page3 #page3-1 .parcelamento {
+    margin-left: 75px;
+    top: 136px;
+}
+#page3 #page3-1 .img-produtos {
+    margin-left: -220px;
+    top: 240px;
+}
+#page3 #page3-1 .produtos {
+    margin-left: -262px;
+    top: 390px;
+}
+#page3 #page3-1 .img-entrega {
+    margin-left: 90px;
+    top: 240px;
+}
+#page3 #page3-1 .entrega {
+    margin-left: 62px;
+    top: 390px;
+}
+#page3 #page3-1 .observacoes {
+    margin-left: -480px;
+    top: 448px;
+}
+/* PÁGINA 3 - ITEM 2 */
+
+#page3 #page3-2 {
+    margin-left: 0px;
+    top: 270px;
+    display: none;
+}
+#page3 #page3-2 .slogan-parceria {
+    margin-left: -355px;
+    top: -78px;
+}
+#page3 #page3-2 .balao {
+    margin-left: -478px;
+    top: 0px;
+}
+#page3 #page3-2 .preco-cc {
+    margin-left: -488px;
+    top: 286px;
+}
+#page3 #page3-2 .preco-medio {
+    margin-left: -418px;
+    top: 364px;
+}
+#page3 #page3-2 .azul {
+    background: #0f8984;
+    margin-left: 50px;
+    height: 20px;
+    border-radius: 2px;
+}
+#page3 #page3-2 .laranja {
+    background: #f07834;
+    margin-left: 50px;
+    height: 20px;
+    border-radius: 2px;
+}
+#page3 #page3-2 .item1-azul {
+    width: 175px;
+    top: 8px;
+}
+#page3 #page3-2 .item1-laranja {
+    width: 206px;
+    top: 31px;
+}
+#page3 #page3-2 .item2-azul {
+    width: 235px;
+    top: 66px;
+}
+#page3 #page3-2 .item2-laranja {
+    width: 278px;
+    top: 89px;
+}
+#page3 #page3-2 .item3-azul {
+    width: 125px;
+    top: 125px;
+}
+#page3 #page3-2 .item3-laranja {
+    width: 154px;
+    top: 148px;
+}
+#page3 #page3-2 .item4-azul {
+    width: 146px;
+    top: 182px;
+}
+#page3 #page3-2 .item4-laranja {
+    width: 168px;
+    top: 205px;
+}
+#page3 #page3-2 .item5-azul {
+    width: 86px;
+    top: 236px;
+}
+#page3 #page3-2 .item5-laranja {
+    width: 94px;
+    top: 259px;
+}
+#page3 #page3-2 .item6-azul {
+    width: 186px;
+    top: 298px;
+}
+#page3 #page3-2 .item6-laranja {
+    width: 238px;
+    top: 321px;
+}
+#page3 #page3-2 .item7-azul {
+    width: 156px;
+    top: 352px;
+}
+#page3 #page3-2 .item7-laranja {
+    width: 204px;
+    top: 375px;
+}
+#page3 #page3-2 .item8-azul {
+    width: 208px;
+    height: 24px;
+    top: 412px;
+}
+#page3 #page3-2 .item8-laranja {
+    width: 208px;
+    height: 24px;
+    top: 440px;
+}
+#page3 #page3-2 .dados-absoluto {
+    position: absolute;
+    bottom: 3px;
+    right: 2px;
+}
+#page3 #page3-2 .dados-total-label {
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+}
+#page3 #page3-2 .dados {
+    margin-left: -160px;
+    top: 8px;
+}
+#page3 #page3-2 .economia {
+    margin-left: 368px;
+    top: 384px;
+}
+#page3 #page3-2 .preco-certo {
+    margin-left: 290px;
+    top: 418px;
+}
+/* PÁGINA 3 - ITEM 3 */
+
+#page3 #page3-3 {
+    margin-left: 0px;
+    top: 270px;
+    display: block;
+}
+#page3 #page3-3 .img-custo {
+    margin-left: -415px;
+    top: 0px;
+}
+#page3 #page3-3 .custo {
+    margin-left: -415px;
+    top: 154px;
+}
+#page3 #page3-3 .img-parceria {
+    margin-left: -80px;
+    top: 0px;
+}
+#page3 #page3-3 .parceria {
+    margin-left: -68px;
+    top: 154px;
+}
+#page3 #page3-3 .img-loja {
+    margin-left: 260px;
+    top: 0px;
+}
+#page3 #page3-3 .loja {
+    margin-left: 258px;
+    top: 154px;
+}
+#page3 #page3-3 .img-satisfacao {
+    margin-left: -262px;
+    top: 254px;
+}
+#page3 #page3-3 .satisfacao {
+    margin-left: -284px;
+    top: 414px;
+}
+#page3 #page3-3 .img-pagamento {
+    margin-left: 140px;
+    top: 254px;
+}
+#page3 #page3-3 .pagamento {
+    margin-left: 62px;
+    top: 414px;
+}
+/* PÁGINA 4 */
+
+#page4 .titulo {
+    margin-left: -495px;
+    top: 16px;
+}
+#page4 .facil {
+    margin-left: -495px;
+    top: 126px;
+}
+#page4 .linhas {
+    margin-left: -380px;
+    top: 112px;
+}
+#page4 .item1 {
+    margin-left: -178px;
+    top: 158px;
+}
+#page4 .item2 {
+    margin-left: 114px;
+    top: 138px;
+}
+#page4 .item3 {
+    margin-left: -204px;
+    top: 394px;
+}
+#page4 .item4 {
+    margin-left: 72px;
+    top: 372px;
+}
+/* PÁGINA 5 */
+
+#page5 .titulo {
+    margin-left: -424px;
+    top: 30px;
+}
+#page5 .basta {
+    margin-left: -266px;
+    top: 138px;
+}
+#page5 .marcas {
+    margin-left: -342px;
+    top: 260px;
+}
+#page5 .marcas img {
+    float: left;
+    margin: 0 20px;
+}
+#page5 .premios {
+    margin-left: -230px;
+    top: 475px;
+}
